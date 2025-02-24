@@ -1,4 +1,4 @@
-package ui.Auth;
+package ui.Admin;
 
 import javax.swing.*;
 

@@ -39,7 +39,7 @@ public class AdminPage extends JFrame {
                 String password = new String(passwordField.getPassword());
                 
                 if (username.equals("admin") && password.equals("admin123")) { // Example credentials
-                    new AdminPanel("Admin");
+                    
                     dispose();
                 } else {
                     JOptionPane.showMessageDialog(null, "Invalid credentials. Please try again.");
